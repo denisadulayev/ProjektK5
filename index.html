@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="k5css.css">
+    <script defer src="javascript.js"></script>
+    <title>My Website</title>
 </head>
-<body>
-    
+
+<body id="main">
+    <header>
+        <h1 class="web-title"> Welcome
+            <br>
+            to my website
+        </h1>
+    </header>
+
+    <article>
+        <h3 class="web-description">This is a website, designed by Deni Sadulayev.</h3>
+
+        <div class="wrapper">
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor temporibus
+                cupiditate! Voluptates autem fugiat nostrum ducimus exercitationem. Incidunt non voluptate rerum
+                corporis numquam praesentium perferendis voluptates suscipit distinctio dolorem.</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor temporibus
+                cupiditate! Voluptates autem fugiat nostrum ducimus exercitationem. Incidunt non voluptate rerum
+                corporis numquam praesentium perferendis voluptates suscipit distinctio dolorem.</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor temporibus
+                cupiditate! Voluptates autem fugiat nostrum ducimus exercitationem. Incidunt non voluptate rerum
+                corporis numquam praesentium perferendis voluptates suscipit distinctio dolorem.</p>
+        </div>
+
+        <div id="sidenav" class="sidenav2">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <div class="container">
+                <h2 class="side-text">Options</h2>
+                <a href="#">Interests</a>
+                <a href="#">Life today</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+        <div class="nav-btn">
+            <button class="open-btn" onclick="openNav()"><img src="menu.png" alt="menu button"></button>
+        </div>
+
+        <div id="work-page" class="work-page">
+            <a href="javascript:void(0)" class="closework" onclick="closeWork()">&times;</a>
+
+            <div class="page-content">
+                <h2>Work</h2>
+                <div class="parent">
+                    <div class="div1"><img src="https://picsum.photos/300/200" alt="random image picsum">Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. A voluptates earum quo ducimus dolorem sed! Atque
+                        quisquam pariatur, hic corporis reprehenderit unde nobis est aspernatur ipsam laudantium ullam.
+                    </div>
+                    <div class="div2"><img src="https://picsum.photos/300/200" alt="random image picsum">Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Dolor maiores reprehenderit voluptatibus veniam non
+                        est amet atque aperiam, quam ipsum iure, delectus ad quo at.</div>
+                    <div class="div3"><img src="https://picsum.photos/300/200" alt="random image picsum">Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Autem nam, adipisci dolore impedit soluta
+                        voluptatibus quisquam nostrum odit velit! Quas reprehenderit unde amet nam ut ipsa.</div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="foot-main">
+            <h3 class="foot-title">Stay updated on the website</h3>
+            <p>Subscribe</p>
+            <form>
+                <input type="email" name="email" placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+
 </body>
+
 </html>
