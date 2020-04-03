@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffb9a0, #f7dea9);
+}
+
+.web-title {
+    margin-left: 220px;
+    margin-top: 220px;
+    color: white;
+}
+
+.web-description {
+    color: rgb(167, 170, 173);
+    margin-left: 220px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 50px;
+    margin-left: 220px;
+    color: white;
+}
+
+.sidenav2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ecd1c6;
+    margin-top: 40px;
+    border-right: 2px solid white;
+    transition: 0.5s;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.sidenav2 a {
+    margin: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.5s;
+}
+
+.sidenav2 .closebtn {
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.open-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-btn {
+    margin-top: -550px;
+}
+
+.open-btn img {
+    width: 25px;
+    height: 25px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.container {
+    margin-left: 20px;
+    color: white;
+}
+
