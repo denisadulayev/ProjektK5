@@ -9,9 +9,9 @@ function closeNav() {
 }
 
 function openWork() {
-    document.getElementById("workPage").style.height = "100%";
+    document.getElementById("work-page").style.height = "100%";
   }
   
 function closeWork() {
-    document.getElementById("workPage").style.height = "0%";
+    document.getElementById("work-page").style.height = "0%";
 }
