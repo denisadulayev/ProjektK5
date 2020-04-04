@@ -1,7 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #ffb9a0, #f7dea9);
+    background: linear-gradient(-45deg, #ee5252, #943ce7, #23d56d, #d523ae);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .web-title {
@@ -11,7 +25,7 @@ body {
 }
 
 .web-description {
-    color: rgb(167, 170, 173);
+    color: white;
     margin-left: 220px;
 }
 
@@ -29,25 +43,25 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ecd1c6;
-    margin-top: 40px;
-    border-right: 2px solid white;
+    background-color: #943ce7;  
+    border-right: 2px solid rgb(250, 155, 155);
     transition: 0.5s;
     z-index: 1;
     overflow-x: hidden;
+    background: transparent;
 }
 
 .sidenav2 a {
     margin: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 20px;
-    color: black;
+    color: rgb(245, 86, 86);
     display: block;
     transition: 0.5s;
 }
 
 .sidenav2 .closebtn {
-    margin-left: 100px;
+    margin-left: 170px;
     font-size: 30px;
 }
 
@@ -73,6 +87,177 @@ body {
 
 .container {
     margin-left: 20px;
+    color: rgb(255, 225, 225);
+}
+
+.foot-main {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fdcab7;
+    border-top: 2px solid rgb(250, 155, 155);
+    margin-left: -18px;
+    color: rgb(248, 170, 170);
+}
+
+input[type="email"] {
+    border: 0;
+    padding: 7px;
+}
+
+input[type="submit"] {
+    background: rgb(250, 178, 178);
+    color: rgb(247, 203, 203);
+    cursor: pointer;
+    border: 0;
+    padding: 7px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.work-page {
+    position: fixed; 
+    height: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1; 
+    background: linear-gradient(-45deg, #ee5252, #943ce7, #23d56d, #d523ae);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    overflow-y: hidden; 
+    transition: 0.5s;
+    border-bottom: 2px solid white;
+}
+
+.page-content {
+    position: relative;
+    top: 10%; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.work-page .closework {
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 80px;
+    }
+    
+    .div1 { grid-area: 2 / 2 / 3 / 3; }
+    .div2 { grid-area: 3 / 2 / 4 / 3; }
+    .div3 { grid-area: 2 / 4 / 3 / 5; }
+    .div4 { grid-area: 3 / 4 / 4 / 5; }
+
+.work-btn {
+    transition-duration: 0.4s;
+    border: unset;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background:transparent;
+    margin-top: 250px;
+    margin-left: 1400px;
+    border: 1px solid white;
+}
+
+.work-btn:hover {
+    background-color: red;
     color: white;
 }
 
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .web-title {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px ;
+    }
+    .web-description {
+        display: flex;
+        margin-left: 0px;
+    }
+    .wrapper {
+        display: flex;
+        margin-left: 0px;
+
+    }
+    .work-btn{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: -220px;
+    }
+
+    footer{
+        position: relative;
+        margin-top: 700px;  
+        bottom: 0;
+        }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+/* Saker att fixa
+
+-Background animation delas upp när man zoomar ut
+-Fixa sida för mindre skärmar
+
+
+
+
+
+  
+  
+  
