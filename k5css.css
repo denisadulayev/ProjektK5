@@ -20,7 +20,7 @@ body {
 }
 
 .web-description {
-    color: #554777;
+    color: #b9b9b9;
     margin-left: 220px;
 }
 
@@ -29,7 +29,7 @@ body {
     grid-template-columns: 200px 200px 200px;
     grid-gap: 50px;
     margin-left: 220px;
-    color: #65548f;
+    color: #b9b9b9;
 }
 
 .sidenav2 {
@@ -38,7 +38,6 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    border-right: 0.1px solid #291f44;
     transition: 0.5s;
     z-index: 1;
     overflow-x: hidden;
@@ -49,7 +48,7 @@ body {
     margin: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: #b9b9b9;
     display: block;
     transition: 0.5s;
 }
@@ -66,7 +65,7 @@ body {
 }
 
 .nav-btn {
-    margin-top: -550px;
+    margin-top: -610px;
 }
 
 .open-btn img {
@@ -81,7 +80,12 @@ body {
 
 .container {
     margin-left: 20px;
-    color: white;
+    color: #b9b9b9;
+}
+
+.container a {
+    font-size: medium;
+    margin-top: 15px;
 }
 
 .foot-main {
@@ -89,9 +93,8 @@ body {
     bottom: 0;
     width: 100%;
     background: transparent;
-    border-top: 1px solid white;
     margin-left: -20px;
-    color: white;
+    color: #b9b9b9;
 }
 
 .foot-title {
@@ -109,11 +112,11 @@ input[type="email"] {
 
 input[type="submit"] {
     background: transparent;
-    color: white;
+    color: #b9b9b9;
     cursor: pointer;
     border: 0;
     padding: 7px;
-    border: 1px solid white;
+    border: 1px solid #b9b9b9;
 }
 
 .work-page {
@@ -123,12 +126,12 @@ input[type="submit"] {
     left: 0;
     top: 0;
     z-index: 1; 
-    background: linear-gradient(-45deg, #ee52a8, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 30s ease infinite;
+    background-image: url("stars2.jpg"), linear-gradient(to right, #07131E , #07131E);
+	background-size: 50% 50%;
+	animation: slide 20s linear infinite;
     overflow-y: hidden; 
     transition: 0.5s;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #b9b9b9;
 }
 
 .page-content {
@@ -136,12 +139,12 @@ input[type="submit"] {
     top: 10%; 
     width: 100%; 
     text-align: center; 
-    color: white;
+    color: #b9b9b9;
 }
 
 .work-page .closework {
     font-size: 50px;
-    color: white;
+    color: #b9b9b9;
     text-decoration: none;
 }
 
@@ -161,7 +164,7 @@ input[type="submit"] {
 .work-btn {
     transition-duration: 0.4s;
     border: unset;
-    color: white;
+    color: #b9b9b9;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -171,7 +174,8 @@ input[type="submit"] {
     background:transparent;
     margin-top: 250px;
     margin-left: 1400px;
-    border: 1px solid white;
+    border: 1px solid #b9b9b9;
+    border-radius: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -224,7 +228,7 @@ input[type="submit"] {
         }
 
     .foot-main {
-        background: linear-gradient(-45deg, #ee52a8, #e73c7e, #23a6d5, #23d5ab);
+        background-color: #353535;
 	    background-size: 400% 400%;
 	    animation: gradient 30s ease infinite;
     }
