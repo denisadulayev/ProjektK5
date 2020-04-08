@@ -16,7 +16,6 @@ function closeWork() {
     document.getElementById("work-page").style.height = "0%";
 }
 
-
 function showTime(){
     const date = new Date();
     let hour = date.getHours(); 
@@ -34,6 +33,8 @@ function showTime(){
 }
 
 showTime();
+
+function back () {history.back()}
 
 
 
