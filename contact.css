@@ -134,8 +134,8 @@ input[type="submit"] {
 
 
 .p{
-    width:5px;
-    height:5px;
+    width:2px;
+    height:2px;
     animation-iteration-count: infinite;
     background-color: white;
     border-radius: 10000px;
@@ -145,11 +145,11 @@ input[type="submit"] {
   }
   .p::before{
     width:150px;
-    right:5px;
+    right:2px;
     top: 0;
     position:absolute;
     content:"  ";
-    height:5px;
+    height:2px;
     background: linear-gradient(to right, rgba(236, 171, 171, 0) 0%,rgba(255, 153, 153, 0.4) 100%); 
   }
   .p-1{
@@ -166,6 +166,21 @@ input[type="submit"] {
   }
 
 @media only screen and (max-width: 600px) {
+    .head {
+        margin-left: -220px;
+    }
+
+    .wrapper {
+        margin-left: 0;
+    }
+
+    .time {
+        margin-top: -500px;
+        text-align: left;
+    }
+
+    .back {
+    margin-top: 50px;}
 }
 
 
