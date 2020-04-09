@@ -5,13 +5,11 @@ body {
     background-size: 70% 70%;
     animation: slide 7s linear infinite;
     font-family: Orbitron;
-    ;
-
 }
 
 .back {
     margin-left: -10px;
-    margin-top: -220px; 
+    margin-top: -220px;
 }
 
 .back-btn {
@@ -88,8 +86,8 @@ input[type="submit"] {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(4, [col] 100px ) ;
-    grid-template-rows: repeat(3, [row] auto  );
+    grid-template-columns: repeat(4, [col] 100px);
+    grid-template-rows: repeat(3, [row] auto);
     color: #444;
     margin-left: 220px;
 }
@@ -105,16 +103,17 @@ input[type="submit"] {
 
 .a {
     grid-column: col / span 2;
-    grid-row: row ;
+    grid-row: row;
 }
+
 .b {
-    grid-column: col 3 / span 2 ;
-    grid-row: row ;
+    grid-column: col 3 / span 2;
+    grid-row: row;
 }
 
 .d {
-    grid-column: col 1 / span 4 ;
-    grid-row: row 2 ;
+    grid-column: col 1 / span 4;
+    grid-row: row 2;
 }
 
 .e {
@@ -122,48 +121,52 @@ input[type="submit"] {
     grid-row: row 3;
 }
 
-@keyframes star
-{
+@keyframes star {
     from {
         left: -100px;
     }
+
     to {
-        left: calc( 100% + 100px );
+        left: calc(100% + 100px);
     }
 }
 
 
-.p{
-    width:2px;
-    height:2px;
+.p {
+    width: 2px;
+    height: 2px;
     animation-iteration-count: infinite;
     background-color: white;
     border-radius: 10000px;
-    position:fixed;
-    animation-name:star;
+    position: fixed;
+    animation-name: star;
     animation-timing-function: linear;
-  }
-  .p::before{
-    width:150px;
-    right:2px;
+}
+
+.p::before {
+    width: 150px;
+    right: 2px;
     top: 0;
-    position:absolute;
-    content:"  ";
-    height:2px;
-    background: linear-gradient(to right, rgba(236, 171, 171, 0) 0%,rgba(255, 153, 153, 0.4) 100%); 
-  }
-  .p-1{
-    animation-duration:10s;
+    position: absolute;
+    content: "  ";
+    height: 2px;
+    background: linear-gradient(to right, rgba(236, 171, 171, 0) 0%, rgba(255, 153, 153, 0.4) 100%);
+}
+
+.p-1 {
+    animation-duration: 10s;
     top: 100px;
-  }
-  .p-2{
-    animation-duration:15s;
-    top:400px;
-  }
-  .p-3{
-    animation-duration:25s;
-    top:800px;
-  }
+}
+
+.p-2 {
+    animation-duration: 15s;
+    top: 400px;
+}
+
+.p-3 {
+    animation-duration: 25s;
+    top: 800px;
+}
 
 @media only screen and (max-width: 600px) {
     .head {
@@ -180,10 +183,26 @@ input[type="submit"] {
     }
 
     .back {
-    margin-top: 50px;}
+        margin-top: 50px;
+    }
 }
 
 
 @media only screen and (max-width: 1100px) and (min-width: 700px) {
+    .head {
+        margin-left: -220px;
+    }
 
+    .wrapper {
+        margin-left: 0;
+    }
+
+    .time {
+        margin-top: -500px;
+        text-align: left;
+    }
+
+    .back {
+        margin-top: 50px;
+    }
 }
