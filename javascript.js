@@ -37,6 +37,19 @@ showTime();
 function back () {history.back()}
 
 
+function earlyLife() {
+    document.getElementById('text1').style.display = "block";
+}
+
+function lifeToday() {
+    document.getElementById('text2').style.display = "block";
+ }
+ function futureLife() {
+    document.getElementById('text3').style.display = "block";
+ }
+
+
+
 
 
 
