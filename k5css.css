@@ -56,7 +56,7 @@ body {
     z-index: 1;
     overflow-x: hidden;
     background: transparent;
-    border-right: 1px solid #b9b9b9;
+    border-right: 1px solid white;
 }
 
 .sidenav2 a {
@@ -151,7 +151,7 @@ input[type="submit"] {
     border-bottom: 1px solid #b9b9b9;
 }
 
-.page-content {
+.page-content { 
     position: relative;
     top: 10%;
     width: 100%;
@@ -165,28 +165,52 @@ input[type="submit"] {
     text-decoration: none;
 }
 
-.parent {
+.container2 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 14px;
+    justify-items: stretch;
+    align-items: start;
+ } 
+ 
+.early{
+    background: transparent;
+    color: white;
+    border: none;
 }
 
-.div1 {
-    grid-area: 2 / 2 / 3 / 3;
+.today{
+    background: transparent;
+    color: white;
+    border: none;
 }
 
-.div2 {
-    grid-area: 3 / 2 / 4 / 3;
+.future{
+    background: transparent;
+    color: white;
+    border: none;
 }
 
-.div3 {
-    grid-area: 2 / 4 / 3 / 5;
+.early:hover{
+    background: rgb(46, 17, 17);
+    color: white;
+    border: none;
 }
 
-.div4 {
-    grid-area: 3 / 4 / 4 / 5;
+.today:hover{
+    background: rgb(46, 17, 17);
+    color: white;
+    border: none;
+}
+
+.future:hover{
+    background: rgb(46, 17, 17);
+    color: white;
+    border: none;
+}
+
+.text {
+    margin-top: 20px;
 }
 
 .work-btn {
@@ -235,19 +259,6 @@ input[type="submit"] {
         margin-top: 600px;
     }
 
-    .work-title {
-        margin-top: -100px;
-    }
-
-    .parent {
-        grid-row-gap: 100px;
-        display: inline-grid;
-        grid-template-rows: 100px 100px 100px;
-        grid-gap: 10px;
-        justify-items: center;
-        margin-top: 60px;
-        font-size: small;
-    }
 
     .time {
         text-align: right;
@@ -259,21 +270,6 @@ input[type="submit"] {
         margin-left: 330px
     }
 
-    .div1 {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-
-    .div2 {
-        grid-area: 1 / 2 / 2 / 3;
-    }
-
-    .div3 {
-        grid-area: 1 / 3 / 2 / 4;
-    }
-
-    .div4 {
-        grid-area: 1 / 4 / 2 / 5;
-    }
 
     footer {
         position: relative;
