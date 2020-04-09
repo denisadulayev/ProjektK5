@@ -5,8 +5,6 @@ body {
     background-size: 70% 70%;
     animation: slide 7s linear infinite;
     font-family: Consolas, monaco, monospace;
-    ;
-
 }
 
 .time {
@@ -318,64 +316,7 @@ input[type="submit"] {
     .time {
         text-align: center;
         margin-left: -300px;
-        margin-top: -60px;
+        margin-top: -80px;
         font-size: xx-large;
     }
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Saker att fixa
-
--Background animation är inte som en loop
--Fixa sida för ipad skärmar
-
-
-
-
-
-  
-  
-  
+} 
