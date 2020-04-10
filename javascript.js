@@ -16,6 +16,21 @@ function closeWork() {
     document.getElementById("work-page").style.height = "0%";
 }
 
+function back () {
+    history.back()
+}
+
+function earlyLife() {
+    document.getElementById('text1').style.display = "block";
+}
+
+function lifeToday() {
+    document.getElementById('text2').style.display = "block";
+ }
+ function futureLife() {
+    document.getElementById('text3').style.display = "block";
+ }
+
 function showTime(){
     const date = new Date();
     let hour = date.getHours(); 
@@ -34,17 +49,3 @@ function showTime(){
 
 showTime();
 
-function back () 
-{history.back()}
-
-
-function earlyLife() {
-    document.getElementById('text1').style.display = "block";
-}
-
-function lifeToday() {
-    document.getElementById('text2').style.display = "block";
- }
- function futureLife() {
-    document.getElementById('text3').style.display = "block";
- }
