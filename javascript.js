@@ -8,17 +8,16 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
-function openWork() {
-    document.getElementById("work-page").style.height = "100%";
+function openLife() {
+    document.getElementById("life-page").style.height = "100%";
   }
   
-function closeWork() {
-    document.getElementById("work-page").style.height = "0%";
+function closeLife() {
+    document.getElementById("life-page").style.height = "0%";
 }
 
-function back () {
-    history.back()
-}
+function back () 
+{history.back()}
 
 function earlyLife() {
     document.getElementById('text1').style.display = "block";
@@ -48,4 +47,3 @@ function showTime(){
 }
 
 showTime();
-
