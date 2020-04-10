@@ -8,7 +8,7 @@ body {
 }
 
 .time {
-    color: #6b4220;
+    color: #c94646;
     font-family: Orbitron;
     letter-spacing: 10px;
     text-align: right;
@@ -30,20 +30,20 @@ body {
 .web-title {
     margin-left: 220px;
     margin-top: 220px;
-    color: #b9b9b9;
+    color: #c94646;
 }
 
 .web-description {
-    color: #b9b9b9;
+    color: #cc5e5e;
     margin-left: 220px;
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    grid-gap: 50px;
+    grid-gap: 20px;
     margin-left: 220px;
-    color: #6b4220;
+    color: #b9b9b9;
 }
 
 .sidenav2 {
@@ -56,7 +56,7 @@ body {
     z-index: 1;
     overflow-x: hidden;
     background: transparent;
-    border-right: 1px solid white;
+    border-right: 1px solid #b9b9b9;
 }
 
 .sidenav2 a {
@@ -66,6 +66,10 @@ body {
     color: #b9b9b9;
     display: block;
     transition: 0.5s;
+}
+
+.side-text {
+    color: #c94646;
 }
 
 .sidenav2 .closebtn {
@@ -108,7 +112,7 @@ body {
     bottom: 0;
     width: 100%;
     background: transparent;
-    margin-left: -20px;
+    margin-left: -10px;
     color: #b9b9b9;
 }
 
@@ -136,7 +140,7 @@ input[type="submit"] {
     border-radius: 10px;
 }
 
-.work-page {
+.life-page {
     position: fixed;
     height: 0;
     width: 100%;
@@ -159,7 +163,7 @@ input[type="submit"] {
     color: #b9b9b9;
 }
 
-.work-page .closework {
+.life-page .closelife {
     font-size: 50px;
     color: #b9b9b9;
     text-decoration: none;
@@ -213,22 +217,28 @@ input[type="submit"] {
     margin-top: 20px;
 }
 
-.work-btn {
-    transition-duration: 0.4s;
-    border: unset;
+.life-btn {
     color: #b9b9b9;
-    padding: 15px 32px;
-    text-align: center;
+    padding: 15px 32px; 
+    border: 1px solid white;
+    border-radius: 15px;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     cursor: pointer;
     background: transparent;
     margin-top: 250px;
     margin-left: 1400px;
-    border: 1px solid #b9b9b9;
-    border-radius: 20px;
+    box-shadow: 0 9px #999;
 }
+
+.life-btn:hover {background-color: #c94646}
+
+.life-btn:active {
+    background-color: #c94646;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 
 @media only screen and (max-width: 600px) {
     body {
@@ -253,7 +263,7 @@ input[type="submit"] {
 
     }
 
-    .work-btn {
+    .life-btn {
         display: flex;
         flex-direction: column;
         margin-left: 0px;
@@ -292,11 +302,15 @@ input[type="submit"] {
 
 
 @media only screen and (max-width: 1100px) and (min-width: 700px) {
-    .work-btn {
+    .life-btn {
         display: flex;
         flex-direction: column;
         margin-left: 550px;
         margin-top: -20px;
+    }
+
+    .nav-btn {
+        margin-top: -600px;
     }
 
     .web-title {
@@ -316,9 +330,9 @@ input[type="submit"] {
     }
 
     .time {
-        text-align: center;
+        text-align: right;
         margin-left: -300px;
-        margin-top: -80px;
+        margin-top: -110px;
         font-size: xx-large;
     }
 } 
