@@ -127,11 +127,6 @@ input[type="submit"] {
     border-radius: 10px;
 }
 
-
-
-
-
-
 @keyframes star {
     from {
         left: -100px;
