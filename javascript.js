@@ -34,7 +34,8 @@ function showTime(){
 
 showTime();
 
-function back () {history.back()}
+function back () 
+{history.back()}
 
 
 function earlyLife() {
@@ -47,12 +48,3 @@ function lifeToday() {
  function futureLife() {
     document.getElementById('text3').style.display = "block";
  }
-
-
-
-
-
-
-
-
-
