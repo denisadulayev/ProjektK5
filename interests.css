@@ -85,7 +85,7 @@ body {
   }
 
 .web-title {
-    margin-left: 740px;
+    margin-left: 845px;
     margin-top: 200px;
     color: #b9b9b9;
 }
@@ -99,7 +99,7 @@ body {
     bottom: 0;
     width: 100%;
     background: transparent;
-    margin-left: -20px;
+    margin-left: -10px;
     color: #b9b9b9;
 }
 
@@ -172,4 +172,27 @@ input[type="submit"] {
 .s3 {
     animation-duration: 25s;
     top: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        font-size: small;
+    }
+    .wrapper {
+        width: 280px;
+    }
+    .web-title {
+        margin-left: 0px;
+    }
+
+    .foot-main {
+        background-color: #353535;
+        margin-left: -20px;
+    }
+
+    footer {
+        position: relative;
+        margin-top: 700px;
+        bottom: 0;
+    }
 }
