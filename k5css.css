@@ -233,6 +233,7 @@ input[type="submit"] {
 @media only screen and (max-width: 600px) {
     body {
         background-size: 80% 80%;
+        font-size: small;
     }
 
     .web-title {
@@ -261,13 +262,17 @@ input[type="submit"] {
 
 
     .time {
-        text-align: right;
-        margin-top: -900px;
+        text-align: left;
+        margin-top: -720px;
         font-size: medium;
     }
 
     .nav-btn {
-        margin-left: 330px
+        margin-top: -620px;
+    }
+
+    .sidenav2 {
+        background-color: #353535;
     }
 
 
