@@ -8,25 +8,25 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
-function openLife() {
-    document.getElementById("life-page").style.height = "100%";
+function openWork() {
+    document.getElementById("work-page").style.height = "100%";
   }
   
-function closeLife() {
-    document.getElementById("life-page").style.height = "0%";
+function closeWork() {
+    document.getElementById("work-page").style.height = "0%";
 }
 
 function back () 
 {history.back()}
 
-function earlyLife() {
+function job1() {
     document.getElementById('text1').style.display = "block";
 }
 
-function lifeToday() {
+function job2() {
     document.getElementById('text2').style.display = "block";
  }
- function futureLife() {
+ function job3() {
     document.getElementById('text3').style.display = "block";
  }
 
