@@ -4,7 +4,7 @@ body {
     background-image: url("stars2.jpg"), linear-gradient(to right, #07131E, #07131E);
     background-size: 70% 70%;
     animation: slide 7s linear infinite;
-    font-family: Orbitron;
+    font-family: Consolas, monaco, monospace;
 }
 
 .back {
@@ -22,7 +22,7 @@ body {
 
 
 .time {
-    color: #6b2020;
+    color: #c94646;
     letter-spacing: 10px;
     text-align: right;
     font-size: 30px;
@@ -43,7 +43,7 @@ body {
 .web-title {
     margin-left: 220px;
     margin-top: 220px;
-    color: #b9b9b9;
+    color: #c94646;
 }
 
 #main {
@@ -61,6 +61,7 @@ body {
 
 .foot-title {
     margin-left: 5px;
+    color: #c94646;
 }
 
 .foot-undertext {
@@ -79,7 +80,7 @@ input[type="submit"] {
     cursor: pointer;
     border: 0;
     padding: 7px;
-    border: 1px solid #b9b9b9;
+    border: 1px solid #c94646;
     border-radius: 10px;
 }
 
@@ -95,10 +96,14 @@ input[type="submit"] {
 .box {
     background-color: transparent;
     border: 1px solid white;
-    color: #6b2020;
+    color: #c94646;
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
+}
+
+.box:hover {
+    color: white;
 }
 
 .a {
@@ -191,12 +196,14 @@ input[type="submit"] {
 
     .foot-main {
         background-color: #353535;
+        margin-left: 0px;
     }
 
     footer {
         position: relative;
         margin-top: 500px;
         bottom: 0;
+        margin-left: -20px;
     }
 }
 
