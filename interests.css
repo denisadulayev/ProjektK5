@@ -4,7 +4,7 @@ body {
     background-image: url("stars2.jpg"), linear-gradient(to right, #07131E, #07131E);
     background-size: 70% 70%;
     animation: slide 7s linear infinite;
-    font-family: Orbitron;
+    font-family: Consolas, monaco, monospace;
 }
 
 .back {
@@ -22,7 +22,7 @@ body {
 
 
 .time {
-    color: rgba(172, 153, 255, 0.4);
+    color: #c94646;
     letter-spacing: 10px;
     text-align: right;
     font-size: 30px;
@@ -41,7 +41,7 @@ body {
 }
 
 .box {
-    background-color: rgba(172, 153, 255, 0.4);
+    background-color: #c94646;
     color: #fff;
     border-radius: 5px;
     padding: 0px;
@@ -85,9 +85,9 @@ body {
   }
 
 .web-title {
-    margin-left: 845px;
-    margin-top: 200px;
-    color: #b9b9b9;
+    color: #c94646;
+    margin-left: 740px;
+    margin-top: 100px;
 }
 
 #main {
@@ -105,6 +105,7 @@ body {
 
 .foot-title {
     margin-left: 5px;
+    color: #c94646;
 }
 
 .foot-undertext {
@@ -123,7 +124,7 @@ input[type="submit"] {
     cursor: pointer;
     border: 0;
     padding: 7px;
-    border: 1px solid #b9b9b9;
+    border: 1px solid #c94646;
     border-radius: 10px;
 }
 
@@ -156,7 +157,7 @@ input[type="submit"] {
     position: absolute;
     content: "  ";
     height: 2px;
-    background: linear-gradient(to right, rgba(172, 171, 236, 0) 0%, rgba(172, 153, 255, 0.4) 100%);
+    background: linear-gradient(to right, rgba(236, 171, 171, 0) 0%, rgba(255, 153, 153, 0.4) 100%);
 }
 
 .s1 {
@@ -180,6 +181,7 @@ input[type="submit"] {
     }
     .wrapper {
         width: 280px;
+        margin-left: 0px;
     }
     .web-title {
         margin-left: 0px;
@@ -194,5 +196,56 @@ input[type="submit"] {
         position: relative;
         margin-top: 700px;
         bottom: 0;
+    }
+
+    .time {
+        margin-top: -680px;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .back-btn{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 700px) {
+    .content {
+        font-size: small;
+    }
+    .wrapper {
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .web-title {
+        margin-left: 225px;
+    }
+
+    .foot-main {
+        background-color: #353535;
+        margin-left: -20px;
+    }
+
+    footer {
+        position: relative;
+        margin-top: 700px;
+        bottom: 0;
+    }
+
+    .time {
+        margin-top: -680px;
+        text-align: right;
+        margin-left: 0px;
+    }
+
+    .back-btn{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+    .web-title {
+        margin-left: 350px;
     }
 }
