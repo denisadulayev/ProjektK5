@@ -23,20 +23,16 @@
         <h3 class="web-description">This is a personal website, created by Deni Sadulayev.</h3>
 
         <div class="wrapper">
-            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores veniam sequi numquam odit aperiam laboriosam repellat necessitatibus ad sapiente fugit minima, commodi perspiciatis saepe eius dolorem ea? Dolorem, rerum ipsam?</p>
-            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor temporibus
-                cupiditate! Voluptates autem fugiat nostrum ducimus exercitationem. Incidunt non voluptate rerum
-                corporis numquam praesentium perferendis voluptates suscipit distinctio dolorem.</p>
-            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor temporibus
-                cupiditate! Voluptates autem fugiat nostrum ducimus exercitationem. Incidunt non voluptate rerum
-                corporis numquam praesentium perferendis voluptates suscipit distinctio dolorem.</p>
+            <p class="paragraph">After going to school for 10 years and learning the basics I started my journey towards becoming an engineer.</p>
+            <p class="paragraph">I worked at the city hall for Lidingö, doing different types of tasks, but most importantly to experience the working life.</p>
+            <p class="paragraph">Now I am studying at NTI Gymnasiet Stockholm to become a civilengineer in the future.</p>
         </div>
 
         <nav id="sidenav" class="sidenav2">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
             <div class="container">
-                <h2 class="side-text">Options</h2>
+                <h2 class="side-text">More</h2>
                 <a href="interests.html">Interests</a>
                 <a href="contact.html">Contact</a>
             </div>
@@ -46,27 +42,37 @@
             <button class="open-btn" onclick="openNav()"><img src="shelter.png" alt="menu button"></button>
         </div>
 
-        <div id="life-page" class="life-page">
-            <a href="javascript:void(0)" class="closelife" onclick="closeLife()">&times;</a>
+        <div id="work-page" class="work-page">
+            <a href="javascript:void(0)" class="closework" onclick="closeWork()">&times;</a>
 
             <div class="page-content">
                 <div class="container2">
-                    <button class="life early" onclick="earlyLife()">Early life</button>
-                    <button class="life today" onclick="lifeToday()">Life today</button>
-                    <button class="life future" onclick="futureLife()">Future plans</button>
-
-                    <div style="display:none;" id="text3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia et, autem obcaecati accusantium harum ut beatae recusandae quam cupiditate ex placeat est? Earum totam accusamus quasi ullam perspiciatis veniam quo? Lorem ipsum dol</div>
-                    <div style="display:none;" id="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, harum reprehenderit eveniet illo excepturi provident, error id deleniti fugit nesciunt et, laborum blanditiis at accusamus quasi nihil a velit suscipit. Lorem ipsum dolor</div>
-                    <div style="display:none;" id="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti aliquid minima repellendus tempora at nemo quos! Nesciunt ab id laudantium, consequatur soluta voluptatibus deleniti veritatis earum eaque ducimus necessitatibus veniam?</div>
-
-                </div>    
+                    <button class="early" onclick="job1()">Job 1
+                        <div style="display:none;" id="text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Mollitia et, autem obcaecati accusantium harum ut beatae recusandae quam cupiditate ex
+                            placeat est? Earum totam accusamus quasi ullam perspiciatis veniam quo? Lorem ipsum dol
+                        </div>
+                    </button>
+                    <button class="today" onclick="job2()">Job 2
+                        <div style="display:none;" id="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ipsum, harum reprehenderit eveniet illo excepturi provident, error id deleniti fugit
+                            nesciunt et, laborum blanditiis at accusamus quasi nihil a velit suscipit. Lorem ipsum dolor
+                        </div>
+                    </button>
+                    <button class="future" onclick="job3()">Job 3
+                        <div style="display:none;" id="text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Corrupti aliquid minima repellendus tempora at nemo quos! Nesciunt ab id laudantium,
+                            consequatur soluta voluptatibus deleniti veritatis earum eaque ducimus necessitatibus
+                            veniam?</div>
+                    </button>
                 </div>
             </div>
+        </div>
 
-        <button class="life-btn" onclick="openLife()">My life</button>
+        <button class="work-btn" onclick="openWork()">View my work</button>
 
         <div id="timeDisplay" class="time" onload="showTime()"></div>
- 
+
     </article>
 
     <footer>
@@ -74,7 +80,7 @@
             <h3 class="foot-title">Stay Updated</h3>
             <p class="foot-undertext">Subscribe</p>
             <form>
-                <input type="email" name="email"  class="email" placeholder="Enter e-mail">
+                <input type="email" name="email" class="email" placeholder="Enter e-mail">
                 <input class="submit" type="submit" value="Submit">
             </form>
         </div>
@@ -100,16 +106,10 @@
 
 <!--TO DO
 
-
-
-
-    
-- Fixa layout för sidan för mindre skrämar
-- Lägga mer animation/design till (knappar) och olika text och rubriker
-- Lägga till Javascript för (life page) som låter en ta bort text
-- Fixa färger för sidan
-- Lägga till mer innehåll på sidan ifall det behövs
-- Finslipa kod och class/id namn, ta bort onödig kod
-
+-Lägg till lite mer kontent
+-Kolla igenom och fixa småsaker för mindre skärmar
+-Lägg till animation/design för olika text
+-Fixa färger för olika sidor
+-Finslipa kod
 
 -->
