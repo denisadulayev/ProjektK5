@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("stars2.jpg"), linear-gradient(to right, #07131E, #07131E);
+    background-image: url("stars2.jpg");
     background-size: 70% 70%;
     animation: slide 7s linear infinite;
     font-family: Consolas, monaco, monospace;
