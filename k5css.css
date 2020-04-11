@@ -84,7 +84,7 @@ body {
 }
 
 .nav-btn {
-    margin-top: -610px;
+    margin-top: -500px;
 }
 
 .open-btn img {
@@ -107,6 +107,10 @@ body {
     margin-top: 15px;
 }
 
+.container a:hover {
+    color: #c94646;
+}
+
 .foot-main {
     position: fixed;
     bottom: 0;
@@ -118,6 +122,7 @@ body {
 
 .foot-title {
     margin-left: 5px;
+    color: #c94646;
 }
 
 .foot-undertext {
@@ -136,11 +141,11 @@ input[type="submit"] {
     cursor: pointer;
     border: 0;
     padding: 7px;
-    border: 1px solid #b9b9b9;
+    border: 1px solid #c94646;
     border-radius: 10px;
 }
 
-.life-page {
+.work-page {
     position: fixed;
     height: 0;
     width: 100%;
@@ -163,7 +168,7 @@ input[type="submit"] {
     color: #b9b9b9;
 }
 
-.life-page .closelife {
+.work-page .closework {
     font-size: 50px;
     color: #b9b9b9;
     text-decoration: none;
@@ -196,28 +201,24 @@ input[type="submit"] {
 }
 
 .early:hover{
-    background: rgb(46, 17, 17);
+    background: #c94646;
     color: white;
     border: none;
 }
 
 .today:hover{
-    background: rgb(46, 17, 17);
+    background: #c94646;
     color: white;
     border: none;
 }
 
 .future:hover{
-    background: rgb(46, 17, 17);
+    background: #c94646;
     color: white;
     border: none;
 }
 
-.text {
-    margin-top: 20px;
-}
-
-.life-btn {
+.work-btn {
     color: #b9b9b9;
     padding: 15px 32px; 
     border: 1px solid white;
@@ -231,9 +232,9 @@ input[type="submit"] {
     box-shadow: 0 9px #999;
 }
 
-.life-btn:hover {background-color: #c94646}
+.work-btn:hover {background-color: #c94646}
 
-.life-btn:active {
+.work-btn:active {
     background-color: #c94646;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -263,7 +264,7 @@ input[type="submit"] {
 
     }
 
-    .life-btn {
+    .work-btn {
         display: flex;
         flex-direction: column;
         margin-left: 0px;
@@ -272,13 +273,13 @@ input[type="submit"] {
 
 
     .time {
-        text-align: left;
-        margin-top: -720px;
+        text-align: right;
+        margin-top: -670px;
         font-size: medium;
     }
 
     .nav-btn {
-        margin-top: -620px;
+        margin-top: -510px;
     }
 
     .sidenav2 {
@@ -302,15 +303,15 @@ input[type="submit"] {
 
 
 @media only screen and (max-width: 1100px) and (min-width: 700px) {
-    .life-btn {
+    .work-btn {
         display: flex;
         flex-direction: column;
-        margin-left: 550px;
-        margin-top: -20px;
+        margin-left: 0px;
+        margin-top: 600px;
     }
 
     .nav-btn {
-        margin-top: -600px;
+        margin-top: -500px;
     }
 
     .web-title {
@@ -332,7 +333,7 @@ input[type="submit"] {
     .time {
         text-align: right;
         margin-left: -300px;
-        margin-top: -110px;
+        margin-top: -680px;
         font-size: xx-large;
     }
 } 
