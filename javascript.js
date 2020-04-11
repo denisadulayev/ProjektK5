@@ -10,14 +10,15 @@ function closeNav() {
 
 function openWork() {
     document.getElementById("work-page").style.height = "100%";
-  }
-  
+}
+
 function closeWork() {
     document.getElementById("work-page").style.height = "0%";
 }
 
-function back () 
-{history.back()}
+function back() {
+    history.back()
+}
 
 function job1() {
     document.getElementById('text1').style.display = "block";
@@ -25,21 +26,22 @@ function job1() {
 
 function job2() {
     document.getElementById('text2').style.display = "block";
- }
- function job3() {
-    document.getElementById('text3').style.display = "block";
- }
+}
 
-function showTime(){
+function job3() {
+    document.getElementById('text3').style.display = "block";
+}
+
+function showTime() {
     const date = new Date();
-    let hour = date.getHours(); 
-    let minute = date.getMinutes(); 
-    let second = date.getSeconds(); 
-    
+    let hour = date.getHours();
+    let minute = date.getMinutes();
+    let second = date.getSeconds();
+
     hour = (hour < 10) ? "0" + hour : hour;
     minute = (minute < 10) ? "0" + minute : minute;
     second = (second < 10) ? "0" + second : second;
-    
+
     const time = hour + ":" + minute + ":" + second;
     document.getElementById("timeDisplay").innerText = time;
     document.getElementById("timeDisplay").textContent = time;

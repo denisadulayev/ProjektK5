@@ -47,9 +47,9 @@ body {
     padding: 0px;
     margin: 20px 0 20px 0;
     font-size: 150%;
-  }
-  
-  .wrapper {
+}
+
+.wrapper {
     width: 400px;
     display: grid;
     grid-template-columns: auto;
@@ -58,31 +58,31 @@ body {
     color: white;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .section1 {
+}
+
+.section1 {
     grid-row: 3 / 4;
-  }
-  
-  .section2 {
+}
+
+.section2 {
     grid-row: 5 / 6;
-  }
+}
 
-  .section3 {
+.section3 {
     grid-row: 7 / 8;
-  }
-  
-  .ad1 {
-    grid-row: 2 / 3;
-  }
-  
-  .ad2 {
-    grid-row: 4 / 5;
-  }
+}
 
-  .ad3 {
-      grid-row: 6 / 7;
-  }
+.ad1 {
+    grid-row: 2 / 3;
+}
+
+.ad2 {
+    grid-row: 4 / 5;
+}
+
+.ad3 {
+    grid-row: 6 / 7;
+}
 
 .web-title {
     color: #c94646;
@@ -179,10 +179,12 @@ input[type="submit"] {
     .content {
         font-size: small;
     }
+
     .wrapper {
         width: 280px;
         margin-left: 0px;
     }
+
     .web-title {
         margin-left: 0px;
     }
@@ -204,7 +206,7 @@ input[type="submit"] {
         margin-left: 0px;
     }
 
-    .back-btn{
+    .back-btn {
         margin-left: 0px;
     }
 }
@@ -213,11 +215,13 @@ input[type="submit"] {
     .content {
         font-size: small;
     }
+
     .wrapper {
         width: 280px;
         margin-left: auto;
         margin-right: auto;
     }
+
     .web-title {
         margin-left: 225px;
     }
@@ -239,7 +243,7 @@ input[type="submit"] {
         margin-left: 0px;
     }
 
-    .back-btn{
+    .back-btn {
         margin-left: 0px;
     }
 }

@@ -160,7 +160,7 @@ input[type="submit"] {
     border-bottom: 1px solid #b9b9b9;
 }
 
-.page-content { 
+.page-content {
     position: relative;
     top: 10%;
     width: 100%;
@@ -180,39 +180,15 @@ input[type="submit"] {
     grid-column-gap: 14px;
     justify-items: stretch;
     align-items: start;
- } 
- 
-.early{
+}
+
+.job {
     background: transparent;
     color: white;
     border: none;
 }
 
-.today{
-    background: transparent;
-    color: white;
-    border: none;
-}
-
-.future{
-    background: transparent;
-    color: white;
-    border: none;
-}
-
-.early:hover{
-    background: #c94646;
-    color: white;
-    border: none;
-}
-
-.today:hover{
-    background: #c94646;
-    color: white;
-    border: none;
-}
-
-.future:hover{
+.job:hover {
     background: #c94646;
     color: white;
     border: none;
@@ -220,7 +196,7 @@ input[type="submit"] {
 
 .work-btn {
     color: #b9b9b9;
-    padding: 15px 32px; 
+    padding: 15px 32px;
     border: 1px solid white;
     border-radius: 15px;
     text-decoration: none;
@@ -232,7 +208,9 @@ input[type="submit"] {
     box-shadow: 0 9px #999;
 }
 
-.work-btn:hover {background-color: #c94646}
+.work-btn:hover {
+    background-color: #c94646
+}
 
 .work-btn:active {
     background-color: #c94646;
@@ -336,4 +314,4 @@ input[type="submit"] {
         margin-top: -680px;
         font-size: xx-large;
     }
-} 
+}
