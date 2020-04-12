@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="k5css.css">
     <script defer src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>My Personal Website</title>
 
 </head>
 
+
+
 <body id="main">
+
+    <div class="loading" delay-hide="2000"></div>
+
     <header class="head">
         <h1 class="web-title"> Welcome
             <br>
@@ -50,26 +56,13 @@
             <a href="javascript:void(0)" class="closework" onclick="closeWork()">&times;</a>
 
             <div class="page-content">
-                <div class="container2">
-                    <button class="job" onclick="job1()">Job 1
-                        <div style="display:none;" id="text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Mollitia et, autem obcaecati accusantium harum ut beatae recusandae quam cupiditate ex
-                            placeat est? Earum totam accusamus quasi ullam perspiciatis veniam quo? Lorem ipsum dol
-                        </div>
-                    </button>
-                    <button class="job" onclick="job2()">Job 2
-                        <div style="display:none;" id="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ipsum, harum reprehenderit eveniet illo excepturi provident, error id deleniti fugit
-                            nesciunt et, laborum blanditiis at accusamus quasi nihil a velit suscipit. Lorem ipsum dolor
-                        </div>
-                    </button>
-                    <button class="job" onclick="job3()">Job 3
-                        <div style="display:none;" id="text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Corrupti aliquid minima repellendus tempora at nemo quos! Nesciunt ab id laudantium,
-                            consequatur soluta voluptatibus deleniti veritatis earum eaque ducimus necessitatibus
-                            veniam?</div>
-                    </button>
-                </div>
+
+                <h2 class="work-page-title">MY WORK</h2>
+                <div class="parent">
+                    <div class="div1"><h3 class="work-title">JOB 1</h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi libero, possimus quia, vero, consequuntur quaerat qui magnam assumenda laborum ad beatae impedit? Fugiat animi obcaecati tempora maiores minus error iure? </div>
+                    <div class="div2"> <h3 class="work-title">JOB 2</h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est quo necessitatibus maiores. Cupiditate libero corporis modi error, officiis dolores esse consequuntur quisquam nisi molestiae voluptate corrupti repellat minus reprehenderit fugit?</div>
+                    <div class="div3"> <h3 class="work-title">JOB 3</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, adipisci praesentium. Doloremque quibusdam recusandae dolorem corrupti delectus distinctio laborum! Velit consequatur architecto vitae, reiciendis labore expedita eum sapiente rem dicta?</div>
+                    </div>
             </div>
         </div>
 
