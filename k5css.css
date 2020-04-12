@@ -5,7 +5,7 @@ body {
     background-size: 70% 70%;
     animation: slide 7s linear infinite;
     font-family: Consolas, monaco, monospace;
-}
+} 
 
 .time {
     color: #c94646;
@@ -174,24 +174,26 @@ input[type="submit"] {
     text-decoration: none;
 }
 
-.container2 {
+.parent {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 14px;
-    justify-items: stretch;
-    align-items: start;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: -150px;
+    }
+    
+    .div1 { grid-area: 2 / 2 / 3 / 3; }
+    .div2 { grid-area: 2 / 4 / 3 / 5; }
+    .div3 { grid-area: 4 / 3 / 5 / 4; }
+
+.work-title {
+    color: #c94646 ;
 }
 
-.job {
-    background: transparent;
-    color: white;
-    border: none;
-}
-
-.job:hover {
-    background: #c94646;
-    color: white;
-    border: none;
+.work-page-title {
+    color: #c94646;
+    text-align: center;
 }
 
 .work-btn {
