@@ -86,8 +86,8 @@ body {
 
 .web-title {
     color: #c94646;
-    margin-left: 740px;
-    margin-top: 100px;
+    margin-left: 39.5%;
+    margin-top: 5%;
 }
 
 #main {
@@ -185,10 +185,6 @@ input[type="submit"] {
         margin-left: 0px;
     }
 
-    .web-title {
-        margin-left: 0px;
-    }
-
     .foot-main {
         background-color: #353535;
         margin-left: -20px;
@@ -209,6 +205,12 @@ input[type="submit"] {
     .back-btn {
         margin-left: 0px;
     }
+
+    .web-title {
+        color: #c94646;
+        margin-left: 1%;
+        margin-top: 23%;
+    }
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 700px) {
@@ -222,9 +224,6 @@ input[type="submit"] {
         margin-right: auto;
     }
 
-    .web-title {
-        margin-left: 225px;
-    }
 
     .foot-main {
         background-color: #353535;
