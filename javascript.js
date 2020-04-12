@@ -1,8 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function () {
     var loading = $(".loading");
-    loading.delay(loading.attr("delay-hide")).slideUp();
-  });
-
+    loading.delay(loading.attr("hide")).slideUp();
+});
 
 function openNav() {
     document.getElementById("sidenav").style.width = "200px";

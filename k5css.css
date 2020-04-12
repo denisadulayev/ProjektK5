@@ -36,12 +36,13 @@ body {
 
 @keyframes loading {
     0% {
-      transform: rotate(0);
+        transform: rotate(0);
     }
+
     50% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
 
 .time {
     color: #c94646;
@@ -217,14 +218,22 @@ input[type="submit"] {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-top: -150px;
-    }
-    
-    .div1 { grid-area: 2 / 2 / 3 / 3; }
-    .div2 { grid-area: 2 / 4 / 3 / 5; }
-    .div3 { grid-area: 4 / 3 / 5 / 4; }
+}
+
+.div1 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div2 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.div3 {
+    grid-area: 4 / 3 / 5 / 4;
+}
 
 .work-title {
-    color: #c94646 ;
+    color: #c94646;
 }
 
 .work-page-title {
