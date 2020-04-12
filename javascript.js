@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    var loading = $(".loading");
+    loading.delay(loading.attr("delay-hide")).slideUp();
+  });
+
+
 function openNav() {
     document.getElementById("sidenav").style.width = "200px";
     document.getElementById("main").style.marginLeft = "200px";
@@ -18,18 +24,6 @@ function closeWork() {
 
 function back() {
     history.back()
-}
-
-function job1() {
-    document.getElementById('text1').style.display = "block";
-}
-
-function job2() {
-    document.getElementById('text2').style.display = "block";
-}
-
-function job3() {
-    document.getElementById('text3').style.display = "block";
 }
 
 function showTime() {
