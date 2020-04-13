@@ -296,6 +296,19 @@ input[type="submit"] {
         margin-top: 600px;
     }
 
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 6px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 2 / 2 / 3 / 3; margin-top: -150px;}
+        .div2 { grid-area: 2 / 3 / 3 / 4; margin-top: -150px;}
+        .div3 { grid-area: 2 / 4 / 3 / 5; margin-top: -150px;}
+    
+
 
     .time {
         text-align: right;
