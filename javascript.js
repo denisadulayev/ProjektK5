@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var loading = $(".loading");
-    loading.delay(loading.attr("hide")).slideUp();
+    loading.delay(loading.attr("data-hide")).slideUp();
 });
 
 function openNav() {
